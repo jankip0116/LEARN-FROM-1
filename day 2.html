@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+    
+    <p id="p1">this is button</p>
+    <p id='p2'> this is  second button</p>
+    <input type ="text" id = 'id1'>
+    <button onclick="myfunction()">"click" </button>
+    <button onclick="myfunction1()">"click again"</button>
+   <script>
+      function myfunction(){
+        console.log("hello");
+        let a = document.getElementById('p1');
+        a.innerText="we will do it";
+      }
+      function myfunction1(){
+        console.log("hi");
+        let b = document.getElementById('p2');
+        // b.innerText="we will do it again";
+        b.innerHTML="we will do it again";
+        let c = document.getElementById('id1');
+        console.log(c.value); 
+      }
+
+
+   </script> 
+</body>
+</html>

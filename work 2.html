@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 2 homework </title>
+    <title>var , let , const</title>
+</head>
+<body>
+   <h1>this is the exapmle for variable vs constant</h1> 
+   <script>
+    let a = 1; //declare let
+    var b = 3; // declare variable 
+    const employee = "janki";
+    employee = 4; // will throw error showing that the employee is already been declared hence cannot be redeclared
+    console.log(b); 
+    {
+        let b = 10; //into mordern js instead of var we use let .
+        console.log(b);
+    }
+    /* let is more preferable as we have the option to redeclare the variable if we use let.
+    Talking about constant once we declare constant it cannot be redeclared hence this is the basic difference between var, let and const */
+   </script>
+</body>
+</html>
