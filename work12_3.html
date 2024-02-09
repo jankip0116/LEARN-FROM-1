@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print gender and semester</title>
+</head>
+<body>
+    <div>
+        Gender :
+        <input type="radio" id="male" name ="gender" value = "male">
+        <lable for="male">male</lable>
+        <input type="radio" id="female" name ="gender" value = "female">
+        <lable for="female">female</lable>
+   </div>
+   <div>
+        Semester :
+        <input type="radio" id="sem1" name ="sem">
+        <lable for="1">1</lable>
+        <input type="radio" id="sem2" name ="sem">
+        <lable for="2">2</lable>
+        <input type="radio" id="sem3" name ="sem">
+        <lable for="3">3</lable>
+    </div>
+
+    <div>
+        <button onclick="display()" id="display">Display Selected</button>
+    </div>
+    <div>
+        Selected : <input type="text" id ="select" readonly>
+    </div>
+    <script src = "work12_3.js"></script>
+</body>
+</html>
